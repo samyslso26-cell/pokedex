@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Monstros</title>
+    <link rel="stylesheet" href="pokedex.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <aside class="sidebar">
+
+            <h1>Pokédex</h1>
+
+            <input type="text" id="search" placeholder="Pesquisar criatura...">
+
+            <ul id="monsterList">
+                <li data-name="charizard">Charizard</li>
+                <li data-name="squirtle">Squirtle</li>
+                <li data-name="bulbasaur">Bulbasaur</li>
+                <li data-name="pikachu">Pikachu</li>
+            </ul>
+
+        </aside>
+
+        <main class="details">
+
+            <img id="monsterImage" src="https://i.imgur.com/JDhUd.png" alt="Monstro">
+
+            <h2 id="monsterName">Escolha uma criatura</h2>
+
+            <p id="monsterDescription">
+                Clique em um monstro para visualizar os detalhes.
+            </p>
+
+        </main>
+
+    </div>
+
+    <script src="pokedex.js"></script>
+</body>
+
+</html>
